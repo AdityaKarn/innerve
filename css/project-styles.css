@@ -1,0 +1,145 @@
+/* =================================================================== 
+ *
+ *  01.  Header - styles
+ *  02.  Individual project styles
+
+ *
+ * =================================================================== */
+
+
+ 
+
+/* ===================================================================
+ *  01. Header - styles
+ * ------------------------------------------------------------------- */
+
+
+#individual-project {
+    background-color: #111111;
+    background-image: url(../images/individual-project-bcg.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    padding: 12rem 0 12rem;
+    position: relative;
+  }
+  #individual-project .overlay {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.75;
+  }
+
+  
+
+/* ===================================================================
+ *  02. Individual project styles
+ * ------------------------------------------------------------------- */
+
+ #ML-project {
+    background-color: #111111;
+    background-image: url(../images/alt-project.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    padding: 12rem 0 12rem;
+    position: relative;
+  }
+  #ML-project .overlay {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.75;
+  }
+
+  #ML-project button.stroke,
+  .button.stroke {
+    border: 3px solid #ffffff;
+    color: #ffffff;
+  }
+
+  .project-description{
+    text-align: center;
+    padding-top: 50px;
+  }
+  
+.individual-project-image {
+    position: relative;
+    margin-top: 30px;
+    margin-left: 10px;
+  }
+  .project-individual{
+    display: block;
+    width: 100%;
+  }
+  .project-overlay{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(0, 0, 0, 0.6);
+  }
+  
+  .project-overlay:hover{
+    color: white;
+    background: rgba(0, 0, 0, 0.8);
+  }
+  
+  
+  
+  .individual-project-title{
+    color: white;
+    font-size: 2em;
+    margin-bottom:10px;
+  }
+
+  .individual-project-end{
+      width:50%;
+      color:gray;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    #ML-project .project-description{
+      margin-top: 50px;
+      padding-top: 0px;
+    }
+  }
+  @media only screen and (max-width: 900px) {
+    #ML-project .project-description{
+        margin-top: 50px;
+        padding-top: 0px;
+      }
+  }
+  @media only screen and (max-width: 768px) {
+    #ML-project .project-description{
+        margin-top: 10px;
+        padding-top: 0px;
+      }
+  }
+  @media only screen and (max-width: 600px) {
+    #ML-project .project-description{
+        margin-top: 10px;
+        padding-top: 0px;
+      }
+  }
+  @media only screen and (max-width: 400px) {
+    #ML-project .project-description{
+        margin-top: 0px;
+        padding-top: 0px;
+      }
+  }
